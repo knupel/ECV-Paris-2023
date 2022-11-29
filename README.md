@@ -4,28 +4,29 @@ Initiation au frontend de 32 heures via React, Gatsby, CSS, Netlify, Contentful 
 
 ## Session 1  2022_1_4
 
-Présentation de chacun et du projet de site.
-Évaluation du niveau de code et de javascript.
+Présentation, intervenant, élève et leur projet.
+Évaluation du niveau de code en javascript.
+Github
 
 ## Session 2 2022_1_9
 
-React
+React, npm
 
 ## Session 3 2022_1_16
 
-Gatsby
+API / CMS Contentful lié au site React
 
 ## Session 4 2022_1_23
 
-API / CMS Contentful
+Gatsby ou React component
 
 ## Session 5 2022_1_30
 
-CSS
+CSS / API Typo
 
 ## Session 6 2022_2_6
 
-Code et design
+Code et design / composant de design
 
 ## Session 7 2022_2_20
 
