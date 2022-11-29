@@ -14,11 +14,11 @@ React, npm
 
 ## Session 3 2022_1_16
 
-API / CMS Contentful lié au site React
+API / CMS Contentful / Netlify
 
 ## Session 4 2022_1_23
 
-Gatsby ou React component
+Gatsby ou React component / Gatsby Cloud
 
 ## Session 5 2022_1_30
 
