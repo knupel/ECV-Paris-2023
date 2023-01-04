@@ -4,9 +4,11 @@ Initiation au frontend de 32 heures via React, Gatsby, CSS, Netlify, Contentful 
 
 ## Session 1  2022_1_4
 
-Présentation, intervenant, élève et leur projet.
-Évaluation du niveau de code en javascript.
-Github
+Présentation, intervenant et élèves.
+Évaluation du niveau de code en css, javascript et premier pas sur React pour comprendre les composants.
+
+Dans le dossier cours 1, se trouvent les différents éléments abordés pour cette évaluation à travers 
+l'application https://codesandbox.io
 
 ## Session 2 2022_1_9
 
