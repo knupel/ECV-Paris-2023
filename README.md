@@ -14,7 +14,7 @@ Si les projets vous apparaisent complets c'est qu'il peut être démarré via `n
 Présentation, intervenant et élèves.
 Évaluation du niveau de code en css, javascript et premiers pas sur React pour comprendre les composants.
 
-voir dossier 'cours 1'
+voir dossier `cours 1`
 
 ## Session 2 2022_1_9
 
@@ -23,7 +23,7 @@ En parrallèle est abordé des schémas de programation et d'architecture.
 Création d'un composant `Layout` afin de préparer les futurs pages des sites internet statiques.
 Description de l'objet `props` qui est la variable de dialogue des composants `React`
 
-voir dossier 'cours 2'
+voir dossier `cours 2`
 
 ## Session 3 2022_1_16
 
