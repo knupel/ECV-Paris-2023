@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+/*position: relative;*/
+.haut {
+  background: cyan;
+}
+
+* {
+  background: yellow;
+}
+.inside {
+  background: cyan;
+}
+.global {
+  font-family: sans-serif;
+}

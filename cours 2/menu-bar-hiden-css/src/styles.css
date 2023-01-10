@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.page {
+  background: yellow;
+}
+
+.haut {
+  background: yellow;
+  width: 100%;
+  position: relative;
+  opacity: 0;
+  height: 0px;
+  transition: height 1s, opacity 0.5s;
+}
+
+.haut:hover {
+  opacity: 1;
+  height: 30px;
+}
+
+.milieu {
+  height: 200px;
+  background: magenta;
+}
+
+.bas {
+  background: cyan;
+}

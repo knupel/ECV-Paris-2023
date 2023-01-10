@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+/*position: relative;*/
+.haut {
+  background: cyan;
+  width: 100%;
+  opacity: 0;
+  height: 0px;
+  transition: all 1s;
+}
+
+.haut:hover {
+  opacity: 1;
+  height: 30px;
+}
+
+* {
+  background: yellow;
+}
+.inside {
+  background: cyan;
+}
+.global {
+  font-family: sans-serif;
+}

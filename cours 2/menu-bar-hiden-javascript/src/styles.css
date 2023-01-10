@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.page {
+  background: yellow;
+}
+
+.haut {
+  background: yellow;
+  width: 100%;
+  position: relative;
+}
+
+.milieu {
+  height: 200px;
+  background: magenta;
+}
+
+.bas {
+  background: cyan;
+}

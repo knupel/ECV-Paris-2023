@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+* {
+  background: yellow;
+}
+.inside {
+  background: cyan;
+}
+.global {
+  font-family: sans-serif;
+}
