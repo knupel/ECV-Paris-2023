@@ -4,7 +4,7 @@ Outils : React, Gatsby, Contentful, Netlify avec touches de CSS !!!
 
 Dans les dossiers `cours #` se trouvent les différents éléments de code abordés lors des différentes sessions.
 À noter que si les fichiers ne sont pas directements exploitables c'est qu'il faut utiliser un bac à sable ou les réinjecter dans un projet existant.
-Pour créer ces bouts de code, le bac à sable utilisé est https://codesandbox.io
+Pour créer ces bouts de code, le bac à sable utilisé est [codesandbox](https://codesandbox.io)
 
 Si les projets vous apparaisent complets c'est qu'il peut être démarré via `npm start` si c'est du pur 'React' ou via `gatsby develop` si c'est un projet Gatsby/React.
 
