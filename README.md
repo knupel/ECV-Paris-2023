@@ -27,11 +27,21 @@ voir dossier `cours 2`
 
 ## Session 3 2022_1_16
 
-Arboresence / Site multipage Gatsby / React / Github / Netlify
+Création d'un site single-page en React avec plusieurs pages avec le design pattern pour accéder à l'ensemble des pages
+https://github.com/knupel/react_multipage
+
+création du site à partir de la console
+`npx create-react-app mon-site`
+
+à partir de ce gabarit, création d'une arborescence simple avec l'extansion `react-router-dom` à travers ses composants `Link`, `BrowserRouter`, `Routes`, `Route` et `Outlet`
+
+Le Design pattern utilisé est celui de l'emboitement des composants `Route` pour optimisé l'utilisation du composant `Layout` par percolation des pages avec le composant `Outlet`.
+
+
 
 ## Session 4 2022_1_23
 
-Gatsby ou React component / Gatsby Cloud
+Site multipage Gatsby / Github / Netlify
 
 ## Session 5 2022_1_30
 
