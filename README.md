@@ -71,3 +71,20 @@ Code et design
 ## Session 8 2022_2_27
 
 Code et design
+
+
+# Ressources
+
+https://www.gatsbyjs.com/
+
+https://storybook.js.org/showcase/tag/react
+
+https://mui.com/
+
+https://www.netlify.com/
+
+https://scrimba.com/
+
+
+
+
