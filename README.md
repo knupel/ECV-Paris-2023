@@ -1,6 +1,7 @@
 # ECV-Paris-2023
 Initiation de 32 heures au frontend. Niveau Bachelor 3.
 Outils : React, Gatsby, Contentful, Netlify avec touches de CSS !!!
+Ojectif : Réaliser un site vitrine simple sur le modèle suivant : https://squelette.netlify.app/
 
 Dans les dossiers `cours #` se trouvent les différents éléments de code abordés lors des différentes sessions.
 À noter que si les fichiers ne sont pas directement exploitables c'est qu'il faut utiliser un bac à sable, ou les réinjecter dans un projet existant.
@@ -48,7 +49,7 @@ Mise en place de l'architecture d'un gabarit de site à travers un design patter
 Le CI/CD est l'automatisation du déploiement d'un site entre le moment ou le code est écrit et le moment où il est en ligne, visible de façon publique sur internet.
 Le CI/CD ici est un développement sur `VS Code` le code est en suite déposé sur `Github` puis déployé à partir du `master` sur [Netlify](https://www.netlify.com/) qui le construit pour en assurer la mise en ligne.
 
-Pour s'assurer que le site puisse être déployé, il est important de voir la différence entre déploiement local avec la commande `npm run develop` ou `gatsby develop` et le `build` qui est beaucoup plus exigeant. Il est donc conseillé avant de pousser son code vers `Github` et donc `Netlify` de lancer `npm run build` ou `gatsby build` pour éviter des échecs de déploiement et donc de gaspiller inutilement des minutes de construction sur `Netlify`
+Pour s'assurer que le site puisse être déployé, il est important de voir la différence entre déploiement local avec la commande `npm run develop` ou `gatsby develop` et le `build` qui est beaucoup plus exigeant. Il est donc conseillé avant de pousser son code vers `Github` et donc `Netlify` de lancer `npm run build` ou gatsby build` pour éviter des échecs de déploiement et donc de gaspiller inutilement des minutes de construction sur `Netlify`
 
 ### Site
 
