@@ -41,15 +41,17 @@ Le Design pattern utilisé est celui de l'emboitement des composants `Route` pou
 
 ## Session 4 2022_1_23
 
-- Mise en place de l'architecture d'un gabarit de site à travers un design pattern ou le `Layout` est construit autour d’une structure de composants `Header` `children` et `Footer`. Le `children` représentant les pages du site.
+Mise en place de l'architecture d'un gabarit de site à travers un design pattern ou le `Layout` est construit autour d’une structure de composants `Header` `children` et `Footer`. Le `children` représentant les pages du site.
 
-- Introduction au CI/CD
+### Introduction au CI/CD
+
 Le CI/CD est l'automatisation du déploiement d'un site entre le moment ou le code est écrit et le moment où il est en ligne, visible de façon publique sur internet.
 Le CI/CD ici est un développement sur `VS Code` le code est en suite déposé sur `Github` puis déployé à partir du `master` sur [Netlify](https://www.netlify.com/) qui le construit pour en assurer la mise en ligne.
 
 Pour s'assurer que le site puisse être déployé, il est important de voir la différence entre déploiement local avec la commande `npm run develop` ou `gatsby develop` et le `build` qui est beaucoup plus exigeant. Il est donc conseillé avant de pousser son code vers `Github` et donc `Netlify` de lancer `npm run build` ou gatsby build` pour éviter des échecs de déploiement et donc de gaspiller inutilement des minutes de construction sur `Netlify`
 
-- Site
+### Site
+
 Le code qui sert de support pour le cours pour l'apprentissage https://github.com/knupel/gatsby_lab_ecv_2023 et son déploiement https://ecv2023.netlify.app/ évidement ce site va évoluer tout au le long de la formation !
 
 
