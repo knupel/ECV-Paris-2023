@@ -81,6 +81,144 @@ Code et design
 
 Code et design
 
+# React ce qu'il faut retenir dans la multitude
+
+React est une machine d'état `state` qui ne raffraichit que ce qui est nécessaire.
+cela à ses avantages et ses inconvénients. Plus rapide, mais parfois très fastidueux pour coder, car cela peut provoquer beaucoup d'imbrocations.
+
+### Les composants
+
+Ils agissent comme des balises html et commence toujours par une majuscule :
+<Comp nom="François" age=12/>
+
+Si il y a besoin de passer quelque chose entre les balises vous pouvez écrire 
+<Comp nom="François" age=12>quelque chose à passer</Comp>  
+
+Écrire un composant donne
+
+```js
+function Comp(props) {
+	return <div>{props.name} à {props.age} ans et fait du {props.children}</div>
+}
+```
+Ce qui est passé entre les balises s'appele `children`
+
+On peut passer des élements à nos composants. Ils sont appelés `props`, par exemple `children` est un `props`.
+
+Un composant doit toujours avoir un retour balisé : `return <div></div>
+
+
+### JSX
+
+le JSX est une injection de code dans un endroit qui n'est pas censé en recevoir, pour l'injecté de cette façon on utlise des`{}` ce qui donne `{mon_code}` comme vous pouvez le voir dans le composant <Comp/> décrit audessus.
+
+### Hook
+
+React abandonne petits à petis les `Class` au profit des `Hook` pour revenir à une programmation plus fonctionnelle.
+
+Les hooks agissent comme une fonction et commencent toujours par  `use` ce qui permet au compilateur de les repérer et d'afficher un message d'erreur si besoin. 
+
+Les hooks ne peuvent pas s'imbriquer les uns dans les autres.
+
+#### useState()
+
+Le `hook` le plus présent est `useState` car il associe une variable et une fonction.
+
+cela donne :
+```js
+const [value, set_value] = useState();
+```
+
+`useState()` est initialisé une seule fois, lors de sa première lecture.
+
+Il est donc possible d'écrire
+
+```js
+let arg = 32;
+const [value, set_value] = useState(arg);
+console.log(value);
+```
+
+le retour donnera : `32` si rien n'avait été passé cela aurait donné `undefined`
+
+la partie fonction de `useState()` permet de modifier la valeur du premier argument.
+
+cela donne
+
+```js
+let arg = 32;
+const [value, set_value] = useState(arg);
+set_value(42)
+console.log(value);
+```
+le retour est maintenant `42`
+
+Attention, il faut être prudent avec les modifications de valeurs, car `React` est fait pour éviter les raffraichisssmeents abusif. C'est ce qui fait sa rapidité.
+Donc il vous arrivera devoir utiliser un autre hook pour être sur de rafraichir les valeurs comme il faut : `useEffect()`
+
+
+#### useEffect()
+
+`useEffect()` est souvent le pendant de  `useState()`
+
+Quand il est utlisé de façon simple cela donne 
+
+```js
+useEffect(() => {
+	// fonction à chaque rendu
+	set_value(22);
+})
+```
+
+ou 
+
+```js
+useEffect(() => {
+	// fonction au premier rendu
+	set_value(33);
+}, [])
+```
+
+ou 
+
+```js
+function new_value() {
+	let ret = value;
+	if(Date.now()% 1000) {
+		ret = Math.random()
+	}
+	return ret;
+}
+
+useEffect(() => {
+	// fonctionne à chaque fois `value` change
+	set_value(new_value());
+}, [value])
+```
+
+# Gatsby
+
+Gatsby est comme un `superset` de React avec beaucoup de modules développés. Une gestion de l'image extrêment rapide. Il exsite énormément d'exemple de code ou de gabarit de site avec Gatsby. À utilisé impérativement !!
+
+### graphql
+
+Gtsby a développé un système de graphql particulièrment intéressant pour explorer les données. il est accessible simplement dès qu'on développe un site par un url dédié.
+
+### ce qui change par rapport à React
+
+Par rapport à une fichier `React` classique, il est nécessaire de réimporter `react` à chaque fichier `import React from "react"`
+
+Pour exporter des pages il faut toujours faire un export par défault
+
+```js
+import React from "react"
+
+export default function MaPage() {
+	return <div>ma belle page</div>
+}
+```
+
+
 
 # Ressources
 
