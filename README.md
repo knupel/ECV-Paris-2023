@@ -62,11 +62,12 @@ Le code qui sert de support pour le cours pour l'apprentissage https://github.co
 
 Utilisation de fichier `json` pour élaborer l'arborescence.
 
-Introduction à la génération de page automatique via des fichiers `markdown` et la méthode pour y accèder via des appels `graphql
-
+Introduction à la génération de page automatique via des fichiers `markdown` et la méthode pour y accèder via des appels `graphql`
 
 
 L'utilisation de fichier `json` et `markdown` permets de rendre le contenu d'un site sans avoir la nécessité de modifier le code et permet donc une plus grande flexibilité.
+
+version du code mise à jour : https://github.com/knupel/gatsby_lab_ecv_2023
 
 ## Session 6 2022_2_6
 
