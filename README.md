@@ -1,7 +1,9 @@
 # ECV-Paris-2023
-Initiation de 32 heures au frontend. Niveau Bachelor 3.
+Initiation de 32 heures au frontend. Niveau Bachelor 3 section développement web
 Outils : React, Gatsby, Contentful, Netlify avec touches de CSS !!!
 Ojectif : Réaliser un site vitrine simple sur le modèle suivant : https://squelette.netlify.app/
+
+https://ecv2023.netlify.app/ la version déployée du site travailler en cours et ici le dossier source : https://github.com/knupel/gatsby_lab_ecv_2023
 
 Dans les dossiers `cours #` se trouvent les différents éléments de code abordés lors des différentes sessions.
 À noter que si les fichiers ne sont pas directement exploitables c'est qu'il faut utiliser un bac à sable, ou les réinjecter dans un projet existant.
@@ -58,7 +60,11 @@ Le code qui sert de support pour le cours pour l'apprentissage https://github.co
 
 ## Session 5 2022_1_30
 
-CSS / API Typo
+Introduction à la génération de page automatique via des fichiers `markdown`
+
+Utilisation de fichier `json` pour élaborer l'arborescence.
+
+L'utilisation de fichier `json` et `markdown` permets de rendre le contenu d'un site sans avoir la nécessité de modifier le code et permet donc une plus grande flexibilité.
 
 ## Session 6 2022_2_6
 
