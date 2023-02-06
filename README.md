@@ -71,7 +71,13 @@ version du code mise à jour : https://github.com/knupel/gatsby_lab_ecv_2023
 
 ## Session 6 2022_2_6
 
-Code et design / composant de design
+Mise en page à partir de fichier markdown.
+
+Analyse de l'outil `graphql` de `gatsby` afin d'explorer le contenu du site et de préparer des requêtes `query`
+
+Récupération des fichiers via le `graphql` afin de générer automatiquement un menu et que celui si puisse accècer aux pages crées.
+
+version du code mise à jour : https://github.com/knupel/gatsby_lab_ecv_2023
 
 ## Session 7 2022_2_20
 
