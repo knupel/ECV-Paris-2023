@@ -81,11 +81,15 @@ version du code mise à jour : https://github.com/knupel/gatsby_lab_ecv_2023
 
 ## Session 7 2022_2_20
 
-Code et design
+continuité du 'graphql' pour chargé du contenu de page.
+
+introduction à la notion d'accès `API`  avec pour exemple l'utilsation des polices de charactère Abobe Font.
+Utilisation des tokens d'identification pour leur utilisation en local à travers le fichier `.env` 
+Puis leur stockage sur l'hébergeur pour une utilisation global quand le site est déployé. Dans notre example sur Netlify et sa partie `environment variables`
 
 ## Session 8 2022_2_27
 
-Code et design
+Code et design and controle
 
 # React ce qu'il faut retenir dans la multitude
 
@@ -223,6 +227,12 @@ export default function MaPage() {
 	return <div>ma belle page</div>
 }
 ```
+
+# API
+
+l'utilsation de clé api doivent toujours rester secrètes et être utilisées à travers un fichier `.env` en local.
+Il ne faut oublié d'ajouter ce fichier `.env` à son fichier `.gitignore` afin que ces clés ne soient pas diffusée de façon public.
+Pour les retrouver quand votre site est déployer, il faut les affecté chez votre hébergeur dans un espace qui est prévu à cet effet, en général cet endroit est nommé `variables d'environnement`.
 
 
 
