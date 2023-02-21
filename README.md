@@ -231,8 +231,8 @@ export default function MaPage() {
 # API
 
 l'utilsation de clé api doivent toujours rester secrètes et être utilisées à travers un fichier `.env` en local.
-Il ne faut oublié d'ajouter ce fichier `.env` à son fichier `.gitignore` afin que ces clés ne soient pas diffusée de façon public.
-Pour les retrouver quand votre site est déployer, il faut les affecté chez votre hébergeur dans un espace qui est prévu à cet effet, en général cet endroit est nommé `variables d'environnement`.
+Il ne faut oublié d'ajouter ce fichier `.env` à son fichier `.gitignore` afin que ces clés ne soient pas diffusées de façon public.
+Pour les retrouver quand votre site est déployé, il faut les affecter chez votre hébergeur dans un espace prévu à cet effet. En général cet endroit est nommé `variables d'environnement`.
 
 
 
